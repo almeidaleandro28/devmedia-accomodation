@@ -9,7 +9,7 @@ function Header(props) {
   return (
     <header>
 
-      <div className='flex'>
+      <div className='flex justify-between items-center'>
 
         <div>
           <Logo />

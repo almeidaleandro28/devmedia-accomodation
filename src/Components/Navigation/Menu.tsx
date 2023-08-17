@@ -1,11 +1,11 @@
 
 function Menu(props) {
   return (
-    <div>
-      <a href="#">about</a>
-      <a href="#">plan</a>
-      <a href="#">price</a>
-      <a href="#">contact</a>
+    <div className="px-2 py-3 font-medium">
+      <a className="px-3 py-2" href="#">about</a>
+      <a className="px-3 py-2" href="#">plan</a>
+      <a className="px-3 py-2" href="#">price</a>
+      <a className="px-3 py-2" href="#">contact</a>
     </div>
   );
 }
